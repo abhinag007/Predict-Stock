@@ -1,0 +1,13 @@
+Flask==1.1.2
+gunicorn==19.9.0
+json==2.0.9
+pandas_datareader==0.8.1
+numpy==1.18.4
+pandas==1.0.5
+sklearn==0.22.2.post1
+keras==2.4.2
+yfinance==0.1.54
+os==2.1.4
+datetime>=7.1.1
+time>=1.4
+math>=0.1
