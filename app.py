@@ -34,10 +34,10 @@ def predict():
     data_file['Company Info'] = []
     data_file['Prediction'] = []
     data_file['Company Info'].append({
-        'Employee': details.info['fullTimeEmployees'],
-        'Discription':details.info['longBusinessSummary'],
         'Website': details.info['website'],
-        'Industry':details.info['industry']
+        'Industry':details.info['industry'],
+        'Employee': details.info['fullTimeEmployees'],
+        'Discription':details.info['longBusinessSummary']
     })
 
     if name!="TATAMOTORS.NS":
