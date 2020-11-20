@@ -1,7 +1,6 @@
 
 import math
 from flask import Flask, request, jsonify
-import json
 import pandas_datareader.data as web
 import numpy as np
 import pandas as pd
@@ -26,9 +25,9 @@ model = load_model("model.h5")
 @app.route('/',methods=['GET'])
 def predict():
 
-    args = request.args
-    name = args['cid']
-    # name = "TSLA"
+    # args = request.args
+    # name = args['cid']
+    name = "TSLA"
 
     details = yf.Ticker(name)
 
