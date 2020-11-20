@@ -5,9 +5,6 @@ import pandas_datareader.data as web
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
-from keras.models import Sequential
-from keras.layers import Dense, LSTM
-from keras.layers import Dropout
 from keras import backend as K
 import yfinance as yf
 from datetime import date
@@ -27,7 +24,7 @@ def predict():
 
     # args = request.args
     # name = args['cid']
-    name = "TSLA"
+    name = "TATAMOTORS.NS"
 
     details = yf.Ticker(name)
 
