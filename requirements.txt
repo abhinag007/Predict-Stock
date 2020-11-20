@@ -3,7 +3,8 @@ gunicorn==19.9.0
 pandas_datareader==0.8.1
 numpy==1.18.4
 pandas==1.0.5
-sklearn==0.22.2.post1
+scipy>=0.17.0 
+scikit-learn>=0.22.2.post1
 keras==2.4.2
 yfinance==0.1.54
 os==2.1.4
