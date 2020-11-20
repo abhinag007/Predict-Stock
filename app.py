@@ -22,9 +22,9 @@ model = load_model("model.h5")
 @app.route('/',methods=['GET'])
 def predict():
 
-    # args = request.args
-    # name = args['cid']
-    name = "TATAMOTORS.NS"
+    args = request.args
+    name = args['cid']
+    # name = "TATAMOTORS.NS"
 
     details = yf.Ticker(name)
 
