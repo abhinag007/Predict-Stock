@@ -8,6 +8,4 @@ scikit-learn>=0.22.2.post1
 keras==2.4.2
 yfinance==0.1.54
 os>=2.1
-datetime>=7.1.1
-time>=1.4
-math>=0.1
+datetime>=4.3
